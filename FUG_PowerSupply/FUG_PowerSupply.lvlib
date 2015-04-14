@@ -75,36 +75,36 @@ INFO2SF</Property>
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="public" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="FUG_PowerSupply.constructor.vi" Type="VI" URL="../FUG_PowerSupply.constructor.vi"/>
-		<Item Name="FUG_PowerSupply.destructor.vi" Type="VI" URL="../FUG_PowerSupply.destructor.vi"/>
-		<Item Name="FUG_PowerSupply.set modified data.vi" Type="VI" URL="../FUG_PowerSupply.set modified data.vi"/>
-		<Item Name="FUG_PowerSupply.get data to modify.vi" Type="VI" URL="../FUG_PowerSupply.get data to modify.vi"/>
-		<Item Name="FUG_PowerSupply.Reset.vi" Type="VI" URL="../FUG_PowerSupply.Reset.vi"/>
-		<Item Name="FUG_PowerSupply.SetCurrent.vi" Type="VI" URL="../FUG_PowerSupply.SetCurrent.vi"/>
-		<Item Name="FUG_PowerSupply.SetOnOff.vi" Type="VI" URL="../FUG_PowerSupply.SetOnOff.vi"/>
-		<Item Name="FUG_PowerSupply.SetVoltage.vi" Type="VI" URL="../FUG_PowerSupply.SetVoltage.vi"/>
-	</Item>
-	<Item Name="protected" Type="Folder">
-		<Item Name="FUG_PowerSupply.ProcPeriodic.vi" Type="VI" URL="../FUG_PowerSupply.ProcPeriodic.vi"/>
-		<Item Name="FUG_PowerSupply.ProcCases.vi" Type="VI" URL="../FUG_PowerSupply.ProcCases.vi"/>
-		<Item Name="FUG_PowerSupply.get i attribute.vi" Type="VI" URL="../FUG_PowerSupply.get i attribute.vi"/>
-		<Item Name="FUG_PowerSupply.Read_DB.vi" Type="VI" URL="../FUG_PowerSupply.Read_DB.vi"/>
-		<Item Name="FUG_PowerSupply.set device state.vi" Type="VI" URL="../FUG_PowerSupply.set device state.vi"/>
-		<Item Name="FUG_PowerSupply.set i attribute.vi" Type="VI" URL="../FUG_PowerSupply.set i attribute.vi"/>
-	</Item>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="FUG_PowerSupply.CreateServices.vi" Type="VI" URL="../FUG_PowerSupply.CreateServices.vi"/>
+		<Item Name="FUG_PowerSupply.i attribute.ctl" Type="VI" URL="../FUG_PowerSupply.i attribute.ctl"/>
+		<Item Name="FUG_PowerSupply.i attribute.vi" Type="VI" URL="../FUG_PowerSupply.i attribute.vi"/>
+		<Item Name="FUG_PowerSupply.ProcEvents.vi" Type="VI" URL="../FUG_PowerSupply.ProcEvents.vi"/>
 		<Item Name="FUG_PowerSupply.UpdateCurrent.vi" Type="VI" URL="../FUG_PowerSupply.UpdateCurrent.vi"/>
 		<Item Name="FUG_PowerSupply.UpdateOnOff.vi" Type="VI" URL="../FUG_PowerSupply.UpdateOnOff.vi"/>
 		<Item Name="FUG_PowerSupply.UpdateRegulation.vi" Type="VI" URL="../FUG_PowerSupply.UpdateRegulation.vi"/>
 		<Item Name="FUG_PowerSupply.UpdateSign.vi" Type="VI" URL="../FUG_PowerSupply.UpdateSign.vi"/>
 		<Item Name="FUG_PowerSupply.UpdateVoltage.vi" Type="VI" URL="../FUG_PowerSupply.UpdateVoltage.vi"/>
-		<Item Name="FUG_PowerSupply.i attribute.vi" Type="VI" URL="../FUG_PowerSupply.i attribute.vi"/>
-		<Item Name="FUG_PowerSupply.i attribute.ctl" Type="VI" URL="../FUG_PowerSupply.i attribute.ctl"/>
-		<Item Name="FUG_PowerSupply.ProcEvents.vi" Type="VI" URL="../FUG_PowerSupply.ProcEvents.vi"/>
+	</Item>
+	<Item Name="protected" Type="Folder">
+		<Item Name="FUG_PowerSupply.get i attribute.vi" Type="VI" URL="../FUG_PowerSupply.get i attribute.vi"/>
+		<Item Name="FUG_PowerSupply.ProcCases.vi" Type="VI" URL="../FUG_PowerSupply.ProcCases.vi"/>
+		<Item Name="FUG_PowerSupply.ProcPeriodic.vi" Type="VI" URL="../FUG_PowerSupply.ProcPeriodic.vi"/>
+		<Item Name="FUG_PowerSupply.Read_DB.vi" Type="VI" URL="../FUG_PowerSupply.Read_DB.vi"/>
+		<Item Name="FUG_PowerSupply.set device state.vi" Type="VI" URL="../FUG_PowerSupply.set device state.vi"/>
+		<Item Name="FUG_PowerSupply.set i attribute.vi" Type="VI" URL="../FUG_PowerSupply.set i attribute.vi"/>
+	</Item>
+	<Item Name="public" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="FUG_PowerSupply.constructor.vi" Type="VI" URL="../FUG_PowerSupply.constructor.vi"/>
+		<Item Name="FUG_PowerSupply.destructor.vi" Type="VI" URL="../FUG_PowerSupply.destructor.vi"/>
+		<Item Name="FUG_PowerSupply.get data to modify.vi" Type="VI" URL="../FUG_PowerSupply.get data to modify.vi"/>
+		<Item Name="FUG_PowerSupply.Reset.vi" Type="VI" URL="../FUG_PowerSupply.Reset.vi"/>
+		<Item Name="FUG_PowerSupply.set modified data.vi" Type="VI" URL="../FUG_PowerSupply.set modified data.vi"/>
+		<Item Name="FUG_PowerSupply.SetCurrent.vi" Type="VI" URL="../FUG_PowerSupply.SetCurrent.vi"/>
+		<Item Name="FUG_PowerSupply.SetOnOff.vi" Type="VI" URL="../FUG_PowerSupply.SetOnOff.vi"/>
+		<Item Name="FUG_PowerSupply.SetVoltage.vi" Type="VI" URL="../FUG_PowerSupply.SetVoltage.vi"/>
 	</Item>
 	<Item Name="TwinCat Config" Type="Folder">
 		<Item Name="PBI10V20.GSD" Type="Document" URL="../PBI10V20.GSD"/>
